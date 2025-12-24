@@ -15,6 +15,8 @@ yarn serve
 yarn build
 ```
 
+ビルドされたファイル群はdist以下に生成されます。
+
 ### Lints and fixes files
 ```
 yarn lint
@@ -22,3 +24,7 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## デプロイについて
+Netlifyにビルドコマンドを登録するか、distファイルを見るように設定すればデプロイできます。
+古いので今は手入れてません。
